@@ -24,6 +24,7 @@
 		C04548D2255B4C4500572A14 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04548D0255B4C4500572A14 /* TestViewController.xib */; };
 		C04548DA255B4C6300572A14 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04548D8255B4C6300572A14 /* TestTableViewCell.m */; };
 		C04548DB255B4C6300572A14 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04548D9255B4C6300572A14 /* TestTableViewCell.xib */; };
+		C04548E2255B513700572A14 /* TestViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C04548E1255B513700572A14 /* TestViewControllerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		C04548D7255B4C6300572A14 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		C04548D8255B4C6300572A14 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		C04548D9255B4C6300572A14 /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
+		C04548E0255B513700572A14 /* TestViewControllerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewControllerManager.h; sourceTree = "<group>"; };
+		C04548E1255B513700572A14 /* TestViewControllerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewControllerManager.m; sourceTree = "<group>"; };
 		C0900B0E40C5EE34C39B88A4 /* Pods-iOSLayoutBug-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLayoutBug-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-iOSLayoutBug-tvOSTests/Pods-iOSLayoutBug-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5099193321503C1F3E96F2B /* libPods-iOSLayoutBug-iOSLayoutBugTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSLayoutBug-iOSLayoutBugTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB5EA1D25E8784BE872F982 /* Pods-iOSLayoutBug-iOSLayoutBugTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLayoutBug-iOSLayoutBugTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSLayoutBug-iOSLayoutBugTests/Pods-iOSLayoutBug-iOSLayoutBugTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				C04548D7255B4C6300572A14 /* TestTableViewCell.h */,
 				C04548D8255B4C6300572A14 /* TestTableViewCell.m */,
 				C04548D9255B4C6300572A14 /* TestTableViewCell.xib */,
+				C04548E0255B513700572A14 /* TestViewControllerManager.h */,
+				C04548E1255B513700572A14 /* TestViewControllerManager.m */,
 			);
 			name = iOSLayoutBug;
 			sourceTree = "<group>";
@@ -588,6 +593,7 @@
 				C04548D1255B4C4500572A14 /* TestViewController.m in Sources */,
 				C04548DA255B4C6300572A14 /* TestTableViewCell.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				C04548E2255B513700572A14 /* TestViewControllerManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
