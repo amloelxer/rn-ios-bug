@@ -27,8 +27,14 @@
   return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+
+  selectedCell.backgroundColor = [UIColor cyanColor];
+}
+
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-  return 20;
+  return 100;
 }
 
 @end
